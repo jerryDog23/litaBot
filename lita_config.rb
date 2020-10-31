@@ -23,8 +23,6 @@ Lita.configure do |config|
   else
 	  config.robot.adapter = :shell
   end
-
-
   
 
   # slack adapter demands a value even in dev when we aren't using it...
